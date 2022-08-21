@@ -23,7 +23,6 @@ def kth_last_recursive(ll, k):
 
     def helper(head, k):
         nonlocal counter
-        print(head)
         if not head:
             return None
         helper_node = helper(head.next, k)
