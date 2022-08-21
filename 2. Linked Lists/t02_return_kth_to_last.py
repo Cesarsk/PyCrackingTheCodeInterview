@@ -27,9 +27,9 @@ def kth_last_recursive(ll, k):
             return None
         helper_node = helper(head.next, k)
         # this increases only from the end of the linked list and starts to count...
-        # when found the k-th last element, returns the head
         counter = counter + 1
         if counter == k:
+            # when found the k-th last element, returns the head
             return head
         return helper_node
 
