@@ -1,5 +1,10 @@
 from linked_list import LinkedList
 
+"""
+Remove Dups! Write code to remove duplicates from an unsorted linked list.
+FOLLOW UP
+How would you solve this problem if a temporary buffer is not allowed?
+"""
 
 # This takes O(n) in time and O(n) in space
 def remove_dups(ll):
